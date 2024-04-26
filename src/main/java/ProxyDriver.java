@@ -29,7 +29,7 @@ public class ProxyDriver {
 
         System.out.println("\nSearching for songs by Album");
         List<Song> songlist2 = spotifyProxy.searchByAlbum("Supernatural");
-        for (Song song : songlist) {song.printSong();}
+        for (Song song : songlist2) {song.printSong();}
 
 
     }
